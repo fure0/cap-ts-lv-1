@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES5",
+    "outDir": "./built",
+    "moduleResolution": "node", //promise를 인식 시키기 위해
+    "lib": ["es2015", "DOM", "DOM.Iterable"]
+  },
+  "include": ["./src/**/*"]
+}
