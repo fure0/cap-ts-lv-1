@@ -5,7 +5,7 @@ export interface Country {
   NewConfirmed: number;
   NewDeaths: number;
   NewRecovered: number;
-  Premium: any;
+  Premium: string;
   Slug: string;
   TotalConfirmed: number;
   TotalDeaths: number;
